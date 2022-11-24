@@ -499,7 +499,6 @@
     min-width: 280px;
     max-width: 280px;
     bottom: none;
-    top: -100px;
     left: 50%;
     transform: translateX(-50%);
   }
