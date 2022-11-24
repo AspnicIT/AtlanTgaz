@@ -561,6 +561,33 @@
   }
   .modal__check {
     line-height: 16px;
-    top: -90px;
+  }
+}
+@media (max-height: 400px) {
+  .modal__body {
+    padding: 10px;
+  }
+  .modal__title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .modal__close {
+    top: 20px;
+  }
+  .modal__input {
+    margin-bottom: 10px;
+    padding: 7px 10px;
+  }
+  .modal__wrapBtn {
+    margin-top: 22px;
+  }
+  .modal__button {
+    padding: 10px 28px;
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .modal__blickTop, .modal__blickButtom {
+    display: none;
   }
 }/*# sourceMappingURL=adaptiv.css.map */
